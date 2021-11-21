@@ -1,0 +1,225 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1.125rem;
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+  color: #8bacda;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+h1 {
+  font-size: 1.375rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.6875rem;
+  cursor: pointer;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+h1:hover {
+  color: #00fff7;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 145%;
+  margin-bottom: 0.125rem;
+}
+
+@media screen and (min-width: 600px) {
+  p {
+    font-size: 1.125rem;
+  }
+}
+
+.card {
+  width: calc(100vw - 1.5rem * 2);
+  max-width: 21.875rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  min-height: 33.9375rem;
+  border-radius: 0.9375rem;
+  background-color: #14253d;
+  margin-top: 3.9375rem;
+  -webkit-box-shadow: 0 2.3125rem 17px 22px #030e1e1a;
+          box-shadow: 0 2.3125rem 17px 22px #030e1e1a;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    height: 37.1875rem;
+    margin-top: 0;
+  }
+}
+
+.card__image {
+  position: relative;
+  height: 18.875rem;
+  overflow: hidden;
+  border-radius: 0.625rem;
+  cursor: pointer;
+}
+
+.card__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card__image:hover .img-overlay {
+  opacity: 1;
+}
+
+.card__image .img-overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 255, 247, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.card__image .img-overlay img {
+  width: 2.8125rem;
+  height: 1.875rem;
+}
+
+.card__text {
+  margin-top: 1.4375rem;
+}
+
+.card__text .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.25rem 0rem;
+  border-bottom: 1px solid #2f415b;
+}
+
+@media screen and (min-width: 600px) {
+  .card__text .info {
+    padding: 1.5rem 0;
+  }
+}
+
+.card__text .info span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+}
+
+.card__text .info span:first-child {
+  font-weight: 600;
+  color: #00fff7;
+}
+
+.card__text .info span:last-child {
+  font-weight: 400;
+}
+
+.card__text .info span img {
+  margin-right: 0.4375rem;
+}
+
+.card__text .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.card__text .author .avatar {
+  width: 2.0625rem;
+  height: 2.0625rem;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 0.9375rem;
+}
+
+.card__text .author .avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__text .author h2 {
+  font-size: 0.96875rem;
+  font-weight: 300;
+}
+
+.card__text .author h2 span {
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+}
+
+.card__text .author h2 span:hover {
+  color: #00fff7;
+}
+/*# sourceMappingURL=styles.css.map */

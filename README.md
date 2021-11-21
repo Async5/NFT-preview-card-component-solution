@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-solution-with-html-scss-rh-NQDYqs)
 - Live Site URL: [live site URL here](https://stoic-montalcini-07887f.netlify.app/)
 
 ## My process
